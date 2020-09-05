@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* h1{
+	font-family: 'Concert One', cursive;
+} */
+body{
+	background-image: url(bg-9.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ 
+#container {
+	
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.completed
+{
+	color:gray;
+	text-decoration: line-through;
+}
+#list{
+	padding: 10px 40px ;
+}
+.Dicon{
+	height: 30px;
+	width: 30px;
+	border-radius: 30%;
+}
+li{
+	list-style: none;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+h1{
+	font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+}
+
+#slidebar{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background-color:rgb(26, 14, 14,0.95);
+	left: -200px;
+	transition: all 1s linear;
+}
+#slidebar.active{
+	left: 0px;
+}
+#slidebar ul li{
+	padding: 10px 10px;
+	border-bottom:2px solid rgb(41, 9, 9);
+	list-style: none;
+}
+
+#slidebar ul li a{
+	padding: 10px 10px;
+	border-bottom:2px solid rgb(41, 9, 9,);
+	color:grey;
+	
+	text-decoration: none;
+}
+#slidebar ul li a:hover{
+	 
+	color:white;
+
+	
+}
+#slidebar #toggle-btn{
+	 
+	position: absolute;
+	top: 30px;
+	left: 230px;
+	width: 140px;
+	height: 30px;
+	border: 2px solid black;
+	background-color:rgb(26, 14, 14,0.9);
+	color: grey;
+	font-style: normal;
+	text-align: center;
+}
+#slidebar #toggle-btn :hover{
+	color:white;
+}
+ 
+ 
